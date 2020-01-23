@@ -249,6 +249,7 @@ input.inName{
     padding-right: 100px;
 }
 .book {
+    margin: 7rem;
     border-radius: 2rem;
     box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.5);
     display: flex;
