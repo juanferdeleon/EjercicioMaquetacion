@@ -1,4 +1,5 @@
 html, body {
+    background: #f1f6f6;
     font-size: 4px;
     font-family: sans-serif;
 }
@@ -12,7 +13,64 @@ html, body {
 }
 
 .main__container{
-    background: #f1f6f6;    
+    padding: 50px;
+    display: flex;
+    position: relative;
+    list-style: none;
+    font-size: 4rem;
+}
+
+.side__bar{
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 2rem;
+    box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.5);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    height: 650px;
+    width: 340px;
+    margin-bottom: 4rem;
+    overflow: hidden;
+    text-decoration: none !important;
+    color: #8b9393;
+}
+
+hr.side__bar{
+    color: #019c97;
+}
+
+li{
+    padding: 10px;
+    padding-top: 10px;
+}
+
+a{
+    text-decoration-line: none;
+    color: #8b9393;
+}
+
+a:hover{
+
+    text-decoration: underline;
+    color: #019c97;
+}
+
+.grades{
+    padding: 25px;
+}
+
+.addPackage{
+    padding: 20px;
+    font-weight: bold;
+    color: #00a09b;
+}
+
+input.inName{
+    border-radius: 5rem;
+    background: #f1f6f6;
+    box-sizing: border-box;
+    height: 40px;
 }
 
 .school__info{
@@ -77,4 +135,23 @@ html, body {
     padding: 1px;
     padding-left: 20px;
     padding-right: 20px;
+}
+
+.sidebar{
+    color: #e1e6e6;
+}
+
+.add{
+    background-color: #00b9b4; /* Green */
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8rem;
+    height: 13rem;
 }
